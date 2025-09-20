@@ -88,8 +88,17 @@
                 <a href="about.html" class="block px-3 py-2 text-foreground hover:text-primary">About</a>
                 <a href="contact.html" class="block px-3 py-2 text-foreground hover:text-primary">Contact</a>
                 <div class="px-3 py-2 space-y-2">
-                    <a href="login.html" class="btn btn-outline w-full">Login</a>
-                    <a href="register.html" class="btn btn-primary w-full">Get Started</a>
+
+                    @guest
+                    <a href="{{ route('login')}}" class="btn btn-outline w-full">Login</a>
+                    <a href="{{ route('register')}}" class="btn btn-primary w-full">Get Started</a>
+
+
+                    @endguest
+
+                     @auth 
+                    <a href="{{ route('dashboard')}}" class="btn btn-primary w-full">Dashboard</a>
+                    @endauth
                 </div>
             </div>
         </div>
