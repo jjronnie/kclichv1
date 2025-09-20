@@ -136,32 +136,35 @@
                 </div>
 
                 <!-- Popular Domains -->
-                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
-                        <div class="text-lg font-semibold">.com</div>
-                        <div class="text-sm text-muted-foreground">$12.99/year</div>
-                    </div>
-                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
-                        <div class="text-lg font-semibold">.net</div>
-                        <div class="text-sm text-muted-foreground">$14.99/year</div>
-                    </div>
-                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
-                        <div class="text-lg font-semibold">.org</div>
-                        <div class="text-sm text-muted-foreground">$13.99/year</div>
-                    </div>
-                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
-                        <div class="text-lg font-semibold">.io</div>
-                        <div class="text-sm text-muted-foreground">$45.99/year</div>
-                    </div>
-                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
-                        <div class="text-lg font-semibold">.dev</div>
-                        <div class="text-sm text-muted-foreground">$17.99/year</div>
-                    </div>
-                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
-                        <div class="text-lg font-semibold">.tech</div>
-                        <div class="text-sm text-muted-foreground">$24.99/year</div>
-                    </div>
-                </div>
+
+                <div class="flex md:grid md:grid-cols-4 lg:grid-cols-6 gap-4 overflow-x-auto whitespace-nowrap pb-4 scrollbar-hide">
+ 
+    <div class="inline-block md:block text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors mr-4 md:mr-0 min-w-[120px]">
+        <div class="text-lg font-semibold">.com</div>
+        <div class="text-sm text-muted-foreground">$12.99/year</div>
+    </div>
+    <div class="inline-block md:block text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors mr-4 md:mr-0 min-w-[120px]">
+        <div class="text-lg font-semibold">.net</div>
+        <div class="text-sm text-muted-foreground">$14.99/year</div>
+    </div>
+    <div class="inline-block md:block text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors mr-4 md:mr-0 min-w-[120px]">
+        <div class="text-lg font-semibold">.org</div>
+        <div class="text-sm text-muted-foreground">$13.99/year</div>
+    </div>
+    <div class="inline-block md:block text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors mr-4 md:mr-0 min-w-[120px]">
+        <div class="text-lg font-semibold">.io</div>
+        <div class="text-sm text-muted-foreground">$45.99/year</div>
+    </div>
+    <div class="inline-block md:block text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors mr-4 md:mr-0 min-w-[120px]">
+        <div class="text-lg font-semibold">.dev</div>
+        <div class="text-sm text-muted-foreground">$17.99/year</div>
+    </div>
+    <div class="inline-block md:block text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors mr-4 md:mr-0 min-w-[120px]">
+        <div class="text-lg font-semibold">.tech</div>
+        <div class="text-sm text-muted-foreground">$24.99/year</div>
+    </div>
+</div>
+
             </div>
 
             <!-- CTA -->

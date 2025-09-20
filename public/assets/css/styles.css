@@ -420,3 +420,12 @@ input:focus, textarea:focus, select:focus {
 .bg-gradient-to-r {
     background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
+
+/* Hide scrollbar but allow scroll */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none;    /* Firefox */
+}
