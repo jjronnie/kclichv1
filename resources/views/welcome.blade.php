@@ -105,33 +105,75 @@
     </nav>
 
     <main>
-        <!-- Hero Section -->
-        <section class="relative pt-16 pb-32 overflow-hidden">
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" 
-                 style="background-image: url('assets/images/hero-bg.jpg')"></div>
-            <div class="absolute inset-0 hero-gradient"></div>
-            <div class="absolute inset-0 tech-grid opacity-30"></div>
-            
-            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center pt-20">
-                    <h1 class="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-                        <span class="text-gradient">Power Your</span>
-                        <br>
-                        <span class="text-foreground">Digital Presence</span>
-                    </h1>
-                    <p class="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-up">
-                        Professional web hosting solutions with unmatched performance, security, and support. 
-                        Built for developers, trusted by businesses worldwide.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
-                        <a href="hosting.html" class="btn btn-hero">
-                            View Hosting Plans <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                        <button class="btn btn-glass">Try Free Demo</button>
+    <!-- Hero Section with Domain Search -->
+<section class="relative pt-16 pb-32 overflow-hidden">
+    <!-- Backgrounds same as original hero -->
+    <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" 
+         style="background-image: url('assets/images/hero-bg.jpg')"></div>
+    <div class="absolute inset-0 hero-gradient"></div>
+    <div class="absolute inset-0 tech-grid opacity-30"></div>
+
+    <!-- Content -->
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center pt-20">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
+                Find Your Perfect <span class="text-gradient">Domain</span>
+            </h2>
+            <p class="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-up">
+                Search and register domains from over 500 extensions. Get started with free privacy protection.
+            </p>
+
+            <!-- Domain Search Box -->
+            <div class="max-w-4xl mx-auto animate-slide-up">
+                <div class="flex flex-col md:flex-row gap-4 mb-8">
+                    <div class="flex-1">
+                        <input type="text" id="domain-search" placeholder="Enter your domain name..." 
+                               class="w-full px-6 py-4 text-lg bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                    </div>
+                    <button class="btn btn-primary px-8 py-4 text-lg" onclick="searchDomain()">
+                        Search <i class="fas fa-search ml-2"></i>
+                    </button>
+                </div>
+
+                <!-- Popular Domains -->
+                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
+                        <div class="text-lg font-semibold">.com</div>
+                        <div class="text-sm text-muted-foreground">$12.99/year</div>
+                    </div>
+                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
+                        <div class="text-lg font-semibold">.net</div>
+                        <div class="text-sm text-muted-foreground">$14.99/year</div>
+                    </div>
+                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
+                        <div class="text-lg font-semibold">.org</div>
+                        <div class="text-sm text-muted-foreground">$13.99/year</div>
+                    </div>
+                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
+                        <div class="text-lg font-semibold">.io</div>
+                        <div class="text-sm text-muted-foreground">$45.99/year</div>
+                    </div>
+                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
+                        <div class="text-lg font-semibold">.dev</div>
+                        <div class="text-sm text-muted-foreground">$17.99/year</div>
+                    </div>
+                    <div class="text-center p-4 bg-card rounded-lg border border-border hover:border-primary transition-colors">
+                        <div class="text-lg font-semibold">.tech</div>
+                        <div class="text-sm text-muted-foreground">$24.99/year</div>
                     </div>
                 </div>
             </div>
-        </section>
+
+            <!-- CTA -->
+            <div class="text-center mt-8 animate-slide-up">
+                <a href="domains.html" class="btn btn-outline">
+                    View All Domain Services <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 
         <!-- Stats Section -->
         <section class="py-16 bg-card/50">
