@@ -9,7 +9,7 @@
 
         <div class="relative z-10 grid w-full max-w-6xl grid-cols-1 items-center gap-12 lg:grid-cols-2">
 
-            <div class="flex flex-col justify-center text-white">
+            {{-- <div class="flex flex-col justify-center text-white">
                 <h1 class="mb-4 text-5xl font-bold leading-tight md:text-6xl">
                     Create <br> New Account
                 </h1>
@@ -26,7 +26,7 @@
                         Learn More
                     </a>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="rounded-2xl border border-slate-700 bg-slate-800/50 p-8 backdrop-blur-sm md:p-10">
                 <form action="#" method="POST" class="w-full">
