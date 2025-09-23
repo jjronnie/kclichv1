@@ -2,14 +2,14 @@
        <section
         class="relative flex min-h-screen items-center justify-center overflow-hidden bg-slate-900 p-4 font-sans sm:p-8">
         <div class="absolute inset-0">
-            <img src="https://images.unsplash.com/photo-15274d6662433-9173a584a35c?q=80&w=2070&auto=format&fit=crop"
+            <img src="123.jpg"
                 alt="Train Interior" class="h-full w-full object-cover opacity-30">
             <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-transparent"></div>
         </div>
 
         <div class="relative z-10 grid w-full max-w-6xl grid-cols-1 items-center gap-12 lg:grid-cols-2">
 
-            {{-- <div class="flex flex-col justify-center text-white">
+            <div class="flex flex-col justify-center text-white">
                 <h1 class="mb-4 text-5xl font-bold leading-tight md:text-6xl">
                     Create <br> New Account
                 </h1>
@@ -26,7 +26,7 @@
                         Learn More
                     </a>
                 </div>
-            </div> --}}
+            </div>
 
             <div class="rounded-2xl border border-slate-700 bg-slate-800/50 p-8 backdrop-blur-sm md:p-10">
                 <form action="#" method="POST" class="w-full">
